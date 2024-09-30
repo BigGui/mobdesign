@@ -1,3 +1,5 @@
+@import '../node_modules/modern-normalize/modern-normalize.css';
+
 :root {
   font-size: 16px;
 
@@ -40,4 +42,9 @@
   src: url('fonts/worksans-lightitalic.woff2') format('woff2');
   font-weight: 200;
   font-style: italic;
+}
+
+
+body {
+  font-family: 'work-sans', sans-serif;
 }
