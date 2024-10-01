@@ -3,9 +3,9 @@
 .logo {
     font-family: 'abril', serif;
     font-size: 2.5rem;
-    color: var(--black);
+    color: $black;
 
     &-d {
-        color: var(--air-force-blue);
+        color: $air-force-blue;
     }
 }
