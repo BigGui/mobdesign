@@ -1,5 +1,25 @@
 @import '../node_modules/modern-normalize/modern-normalize.css';
 
+
+button {
+  background: none;
+  border: none;
+}
+
+p,
+ul,
+li,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   font-size: 16px;
 
@@ -18,7 +38,7 @@
 @font-face {
   font-family: 'abril';
   src: url('fonts/abrilfatface-regular.woff2') format('woff2'),
-       url('fonts/abrilfatface-regular.woff') format('woff');
+    url('fonts/abrilfatface-regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -31,12 +51,14 @@
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'work-sans';
   src: url('fonts/worksans-bold.woff2') format('woff2');
   font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'work-sans';
   src: url('fonts/worksans-lightitalic.woff2') format('woff2');
@@ -44,7 +66,45 @@
   font-style: italic;
 }
 
-
 body {
   font-family: 'work-sans', sans-serif;
+}
+
+
+.sr-only {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  top: -1000rem;
+  left: 0;
+  overflow: hidden;
+}
+
+/* Header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.header-btn {
+  cursor: pointer;
+}
+
+.header-btn:after {
+  content: url('data:image/svg+xml, <svg width="32" height="26" viewBox="0 0 32 26" fill="none" xmlns="http://www.w3.org/2000/svg"><rect y="0.5" width="32" height="3" fill="black"/><rect y="11.5" width="32" height="3" fill="black"/><rect y="22.5" width="32" height="3" fill="black"/></svg>');
+}
+
+
+/* Logo */
+
+.logo {
+  font-family: 'abril', serif;
+  font-size: 2.5rem;
+  color: var(--black);
+}
+
+.logo-d {
+  color: var(--air-force-blue);
 }
