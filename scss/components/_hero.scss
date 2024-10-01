@@ -1,0 +1,32 @@
+// Hero
+
+.hero {
+    height: min(100vw, 415px);
+    background-image: url('img/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+
+    &-baseline {
+        padding: 1rem;
+        text-align: right;
+        font-family: work-sans, sans-serif;
+        font-size: 1.5rem;
+        font-weight: 200;
+        font-style: italic;
+    }
+    &-bold {
+        font-weight: bold;
+        font-size: 2rem;
+        font-style: normal;
+        color: $sinopia;
+    }
+    &-abril {
+        font-family: 'abril', serif;
+        font-size: 2rem;
+        font-weight: normal;
+        font-style: normal;
+        color: $air-force-blue;
+    }
+}
