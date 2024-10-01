@@ -1,0 +1,14 @@
+.nav-footer {
+    width: 100%;
+    font-size: 1.25rem;
+    text-align: center;
+    color: $white;
+
+    &-lst {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 2rem;
+    }
+}

@@ -4,8 +4,16 @@
     font-family: 'abril', serif;
     font-size: 2.5rem;
     color: $black;
+    
+    &--footer {
+        font-size: 2rem;
+    }
 
     &-d {
         color: $air-force-blue;
+
+        .logo--footer & {
+            color: $white-smoke;
+        }
     }
 }
