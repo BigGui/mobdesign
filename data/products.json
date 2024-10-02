@@ -1,0 +1,222 @@
+[
+    {
+        "id": 1,
+        "title": "Sofa Nordique",
+        "description": "Confortable sofa au design scandinave, parfait pour vos moments de détente.",
+        "imageUrl": "images/sofa-nordique-1.jpg",
+        "productUrl": "produits/sofa-nordique-1.html",
+        "price": 899.99,
+        "category": "canapés et fauteuils",
+        "colors": ["blanc", "bois"],
+        "dateAdded": "2024-02-05"
+    },
+    {
+        "id": 2,
+        "title": "Chaise Oslo",
+        "description": "Chaise élégante aux lignes épurées, idéale pour une salle à manger moderne.",
+        "imageUrl": "images/chaise-oslo-2.jpg",
+        "productUrl": "produits/chaise-oslo-2.html",
+        "price": 149.99,
+        "category": "chaises",
+        "colors": ["gris", "bois"],
+        "dateAdded": "2024-02-15"
+    },
+    {
+        "id": 3,
+        "title": "Table Aurora",
+        "description": "Table basse en bois clair, apportant une touche de lumière à votre salon.",
+        "imageUrl": "images/table-aurora-3.jpg",
+        "productUrl": "produits/table-aurora-3.html",
+        "price": 299.99,
+        "category": "rangement",
+        "colors": ["marron"],
+        "dateAdded": "2024-03-10"
+    },
+    {
+        "id": 4,
+        "title": "Lit Luna",
+        "description": "Lit double avec tête de lit intégrée, alliant style et fonctionnalité.",
+        "imageUrl": "images/lit-luna-4.jpg",
+        "productUrl": "produits/lit-luna-4.html",
+        "price": 749.99,
+        "category": "rangement",
+        "colors": ["bois"],
+        "dateAdded": "2024-03-25"
+    },
+    {
+        "id": 5,
+        "title": "Étagère Nimbus",
+        "description": "Étagère modulable offrant un espace de rangement élégant et pratique.",
+        "imageUrl": "images/etagere-nimbus-5.jpg",
+        "productUrl": "produits/etagere-nimbus-5.html",
+        "price": 199.99,
+        "category": "rangement",
+        "colors": ["blanc"],
+        "dateAdded": "2024-04-05"
+    },
+    {
+        "id": 6,
+        "title": "Lampe Lune",
+        "description": "Lampe de sol au design unique, créant une atmosphère chaleureuse.",
+        "imageUrl": "images/lampe-lune-6.jpg",
+        "productUrl": "produits/lampe-lune-6.html",
+        "price": 129.99,
+        "category": "luminaire",
+        "colors": ["blanc", "bois"],
+        "dateAdded": "2024-04-15"
+    },
+    {
+        "id": 7,
+        "title": "Fauteuil Borealis",
+        "description": "Fauteuil confortable avec repose-pieds, parfait pour une soirée de lecture.",
+        "imageUrl": "images/fauteuil-borealis-7.jpg",
+        "productUrl": "produits/fauteuil-borealis-7.html",
+        "price": 599.99,
+        "category": "canapés et fauteuils",
+        "colors": ["gris", "bois"],
+        "dateAdded": "2024-05-05"
+    },
+    {
+        "id": 8,
+        "title": "Bureau Zenith",
+        "description": "Bureau moderne avec espace de rangement intégré, favorisant la productivité.",
+        "imageUrl": "images/bureau-zenith-8.jpg",
+        "productUrl": "produits/bureau-zenith-8.html",
+        "price": 449.99,
+        "category": "rangement",
+        "colors": ["blanc", "bois"],
+        "dateAdded": "2024-05-18"
+    },
+    {
+        "id": 9,
+        "title": "Miroir Eclat",
+        "description": "Miroir mural décoratif ajoutant une touche sophistiquée à votre espace.",
+        "imageUrl": "images/miroir-eclat-9.jpg",
+        "productUrl": "produits/miroir-eclat-9.html",
+        "price": 89.99,
+        "category": "décoration",
+        "colors": ["bois"],
+        "dateAdded": "2024-06-01"
+    },
+    {
+        "id": 10,
+        "title": "Canapé Héritage",
+        "description": "Canapé trois places au style intemporel, idéal pour le salon familial.",
+        "imageUrl": "images/canape-heritage-10.jpg",
+        "productUrl": "produits/canape-heritage-10.html",
+        "price": 1099.99,
+        "category": "canapés et fauteuils",
+        "colors": ["gris"],
+        "dateAdded": "2024-06-15"
+    },
+    {
+        "id": 11,
+        "title": "Tabouret Zen",
+        "description": "Tabouret en bois massif, apportant une note naturelle à votre intérieur.",
+        "imageUrl": "images/tabouret-zen-11.jpg",
+        "productUrl": "produits/tabouret-zen-11.html",
+        "price": 79.99,
+        "category": "chaises",
+        "colors": ["bois"],
+        "dateAdded": "2024-06-25"
+    },
+    {
+        "id": 12,
+        "title": "Buffet Harmony",
+        "description": "Buffet élégant offrant un espace de rangement généreux pour votre vaisselle.",
+        "imageUrl": "images/buffet-harmony-12.jpg",
+        "productUrl": "produits/buffet-harmony-12.html",
+        "price": 599.99,
+        "category": "rangement",
+        "colors": ["blanc"],
+        "dateAdded": "2024-07-05"
+    },
+    {
+        "id": 13,
+        "title": "Console Eclipse",
+        "description": "Console moderne avec finitions en métal, ajoutant du caractère à votre entrée.",
+        "imageUrl": "images/console-eclipse-13.jpg",
+        "productUrl": "produits/console-eclipse-13.html",
+        "price": 249.99,
+        "category": "rangement",
+        "colors": ["noir", "bois"],
+        "dateAdded": "2024-07-15"
+    },
+    {
+        "id": 14,
+        "title": "Pouf Nova",
+        "description": "Pouf rond et moelleux, parfait comme siège d'appoint ou repose-pieds.",
+        "imageUrl": "images/pouf-nova-14.jpg",
+        "productUrl": "produits/pouf-nova-14.html",
+        "price": 99.99,
+        "category": "canapés et fauteuils",
+        "colors": ["bois", "blanc"],
+        "dateAdded": "2024-07-25"
+    },
+    {
+        "id": 15,
+        "title": "Console Lunaire",
+        "description": "Console spacieuse avec portes coulissantes, un choix pratique et esthétique.",
+        "imageUrl": "images/console-lunaire-15.jpg",
+        "productUrl": "produits/console-lunaire-15.html",
+        "price": 349.99,
+        "category": "rangement",
+        "colors": ["bois"],
+        "dateAdded": "2024-08-05"
+    },
+    {
+        "id": 16,
+        "title": "Bibliothèque Solstice",
+        "description": "Bibliothèque design offrant un espace dédié à vos livres préférés.",
+        "imageUrl": "images/bibliotheque-solstice-16.jpg",
+        "productUrl": "produits/bibliotheque-solstice-16.html",
+        "price": 499.99,
+        "category": "rangement",
+        "colors": ["bois", "blanc"],
+        "dateAdded": "2024-08-15"
+    },
+    {
+        "id": 17,
+        "title": "Table de Chevet Étoile",
+        "description": "Table de chevet compacte, ajoutant une touche de fantaisie à votre chambre.",
+        "imageUrl": "images/table-chevet-etoile-17.jpg",
+        "productUrl": "produits/table-chevet-etoile-17.html",
+        "price": 129.99,
+        "category": "rangement",
+        "colors": ["bois", "gris"],
+        "dateAdded": "2024-08-25"
+    },
+    {
+        "id": 18,
+        "title": "Tapis Astral",
+        "description": "Tapis doux et résistant, aux motifs géométriques épurés, pour un sol accueillant.",
+        "imageUrl": "images/tapis-astral-18.jpg",
+        "productUrl": "produits/tapis-astral-18.html",
+        "price": 249.99,
+        "category": "décoration",
+        "colors": ["gris"],
+        "dateAdded": "2024-09-01"
+    },
+    {
+        "id": 19,
+        "title": "Suspension Elixir",
+        "description": "Suspension lumineuse au style contemporain, parfaite au-dessus de la table à manger.",
+        "imageUrl": "images/suspension-elixir-19.jpg",
+        "productUrl": "produits/suspension-elixir-19.html",
+        "price": 179.99,
+        "category": "luminaire",
+        "colors": ["bois"],
+        "dateAdded": "2024-09-10"
+    },
+    {
+        "id": 20,
+        "title": "Banc Zenith",
+        "description": "Banc en bois massif, ajoutant une touche naturelle à votre espace de vie.",
+        "imageUrl": "images/banc-zenith-20.jpg",
+        "productUrl": "produits/banc-zenith-20.html",
+        "price": 249.99,
+        "category": "rangement",
+        "colors": ["bois"],
+        "dateAdded": "2024-09-20"
+    }
+]
