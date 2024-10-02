@@ -9,15 +9,15 @@
     color: $white;
     padding: 2rem 1rem;
 
-    &-nav {
+    &__nav {
         grid-area: nav;
     }
 
-    &-logo {
+    &__logo {
         grid-area: logo;
     }
 
-    &-social {
+    &__social {
         grid-area: social;
     }
 }

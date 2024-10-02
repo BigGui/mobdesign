@@ -9,7 +9,7 @@
     background-position: center center;
 
 
-    &-baseline {
+    &__baseline {
         padding: 1rem;
         text-align: right;
         font-family: work-sans, sans-serif;
@@ -17,13 +17,15 @@
         font-weight: 200;
         font-style: italic;
     }
-    &-bold {
+
+    &__bold {
         font-weight: bold;
         font-size: 2rem;
         font-style: normal;
         color: $sinopia;
     }
-    &-abril {
+
+    &__abril {
         font-family: 'abril', serif;
         font-size: 2rem;
         font-weight: normal;

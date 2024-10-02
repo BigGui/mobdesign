@@ -1,7 +1,6 @@
 .product-card {
     display: flex;
     flex-direction: column;
-    // align-items: center;
     gap: 1.5rem;
     padding: 1rem 1rem 1rem 0;
     border: .5rem solid $white-smoke;
@@ -12,25 +11,29 @@
         width: 250px;
         aspect-ratio: 1/1;
     }
+
     &__ttl-wrap {
         display: flex;
         justify-content: space-between;
         align-items: baseline;
         gap: 1rem;
     }
+
     &__ttl {
         font-family: 'abril', serif;
         font-size: 2rem;
     }
+
     &__cat {
         color: $air-force-blue;
     }
+
     &__price {
         font-family: 'abril', serif;
         font-size: 1.5rem;
         color: $sinopia;
     }
-    &__desc {}
+
     &__btn {
         margin: 0 auto;
     }
