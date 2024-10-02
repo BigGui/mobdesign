@@ -2,16 +2,7 @@ import '/scss/style.scss';
 
 import './components/header.js';
 import { createProductList } from './components/product-lst.js';
-
-/**
- * Turn a string into a timestamp.
- * @param {string} date Given date, string format
- * @returns {number} Timestamp
- */
-function getTimestamp(date) {
-    date = new Date(date);
-    return date.getTime();
-}
+import { getTimestamp } from './utils.js';
 
 /**
  * Load datas from Json and display the last products.
