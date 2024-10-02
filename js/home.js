@@ -21,9 +21,12 @@ async function displayLastProducts(parentElement) {
     try {
         const response = await fetch('/data/products.json');
         const products = await response.json();
+
+        // Sort products
         products.sort((a, b) => getTimestamp(b.dateAdded) - getTimestamp(a.dateAdded));
-        const productList = createProductList(products.slice(0, 4));
-        parentElement.appendChild(productList);
+
+        // Create the 4 last product elements and list and add them to the page 
+        parentElement.appendChild(createProductList(products.slice(0, 4)));
     }
     catch (error) {
         console.error('Unable to load products data ' + error);

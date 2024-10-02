@@ -17,13 +17,12 @@ function wrapIntoLi(element) {
  * @returns - UL element with all the product to display
  */
 export function createProductList(productsData) {
-    const products =
-        productsData
-            .map(createProduct)
-            .map(wrapIntoLi);
-
     const ul = document.createElement('ul');
-    ul.append(...products);
+    ul.append(
+        ...productsData
+            .map(createProduct)
+            .map(wrapIntoLi)
+    );
     ul.classList.add('product-lst');
 
     return ul;
