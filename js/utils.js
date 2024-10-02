@@ -7,7 +7,7 @@
 function hydrateTemplate(element, data) {
     element.querySelectorAll('[data-content]').forEach(e => {
         if (data[e.dataset.content] !== undefined) {
-            e.textContent = data[e.dataset.content];
+            e.innerHTML = data[e.dataset.content];
         }
     });
 }

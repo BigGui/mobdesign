@@ -1,5 +1,10 @@
 import { hydrateTemplate } from '../utils';
 
+function displayPrice(price) {
+    return price.toString().replace(/(\d+)\.(\d{2})/, '$1 € <span class="product-card__price-cents">$2</span>');
+}
+
+
 /**
  * Create the HTML element to display the product with given data.
  * @param {object} data - Product data 
@@ -7,6 +12,8 @@ import { hydrateTemplate } from '../utils';
  */
 export function createProduct(data) {
     const product = document.importNode(document.getElementById('templateProductCard').content, true);
+
+    data.price = displayPrice(data.price);
 
     hydrateTemplate(product, data);
 

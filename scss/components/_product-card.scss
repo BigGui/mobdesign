@@ -30,8 +30,13 @@
 
     &__price {
         font-family: 'abril', serif;
-        font-size: 1.5rem;
+        font-size: 2rem;
         color: $sinopia;
+        white-space: nowrap;
+    }
+
+    &__price-cents {
+        font-size: 1.25rem;
     }
 
     &__btn {
