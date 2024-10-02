@@ -16,11 +16,29 @@
         cursor: pointer;
     }
 
-    &:after {
+    &__btn:after {
         content: url('data:image/svg+xml, <svg width="32" height="26" viewBox="0 0 32 26" fill="none" xmlns="http://www.w3.org/2000/svg"><rect y="0.5" width="32" height="3" fill="black"/><rect y="11.5" width="32" height="3" fill="black"/><rect y="22.5" width="32" height="3" fill="black"/></svg>');
+        
+        .header--opened & {
+            content: url('data:image/svg+xml,<svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2.25121" y="0.564941" width="35" height="3" transform="rotate(45 2.25121 0.564941)" fill="black"/><rect x="0.129883" y="25.3135" width="35" height="3" transform="rotate(-45 0.129883 25.3135)" fill="black"/></svg>');
+        }
     }
 
-    &--scrolled {
+    &__nav {
+        display: none;
+        position: absolute;
+        top: 84px;
+        left: 0;
+        width: 100%;
+        background-color: $white;
+
+        .header--opened & {
+            display: flex;
+        }
+    }
+
+    &--scrolled,
+    &--opened {
         background-color: $white;
     }
 }

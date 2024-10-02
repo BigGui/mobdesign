@@ -9,11 +9,19 @@
 
 <body>
   <div class="hero">
-    <header class="header js-header">
+    <header class="header js-header" id="header">
       <h1 class="logo">Mob<span class="logo-d">D</span>esign</h1>
-      <button type="button" class="header__btn">
+      <button type="button" class="header__btn js-burger">
         <span class="sr-only">Ouvrir la navigation</span>
       </button>
+      <nav class="header__nav main-nav">
+        <ul class="main-nav__lst">
+          <li><a href="#" class="main-nav__lnk main-nav__lnk--current">Accueil</a></li>
+          <li><a href="#" class="main-nav__lnk">Canapés</a></li>
+          <li><a href="#" class="main-nav__lnk">Décoration</a></li>
+          <li><a href="#" class="main-nav__lnk">Mes coups de coeurs</a></li>
+        </ul>
+      </nav>
     </header>
     <p class="hero__baseline">
       Votre <span class="hero__bold">intérieur</span>
