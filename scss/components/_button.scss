@@ -1,0 +1,14 @@
+.button {
+    display: inline-block;
+    padding: .5rem 1rem;
+    font-family: 'abril', serif;
+    font-size: 1.5rem;
+    color: $white;
+    background-color: $air-force-blue;
+    border-radius: .25rem;
+    transition: background-color 300ms ease-in-out;
+
+    &:hover {
+        background-color: $sinopia;
+    }
+}
